@@ -1,0 +1,48 @@
+body {
+  background-image: url("http://www.d30rpg.com.br/wp-content/uploads/2011/08/BKGRPG.jpg");
+  background-size: 100%;
+}
+
+#butao {
+  font-family: "Roboto Mono", monospace;
+  border: 5px outset rgb(110, 109, 106);
+  background-color: rgb(204, 202, 195) ;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10%;
+  height: 50px;
+}
+
+#butao:hover {
+  background-color: rgb(127, 231, 62);
+  border: 5px outset rgb(87, 181, 29);
+  border-radius: 10%;
+}
+
+.imagemdado {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid rgb(156, 155, 151);
+}
+
+#resultado {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+  .assinatura {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
